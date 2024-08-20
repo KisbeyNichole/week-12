@@ -1,0 +1,33 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Player Directory</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body class="container">
+    <div id="new-item" class="jumbotron">
+      <nav class="navbar bg-body-tertiary m-1">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Whats the word? Word.</a>
+        </div>
+      </nav>
+      <div class="input-group input-group-lg">
+        <span class="input-group-text" id="new-character-name-label">New Word</span>
+        <input type="text" id="new-character-name" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
+      </div>
+      <button id="create-new-item" class="btn btn-primary form-control bg-success-subtle text-success border border-info m-2">
+        Submit
+      </button>
+    </div>
+
+    <div id="app"></div>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
